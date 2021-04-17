@@ -9,6 +9,7 @@ const { logger } = require("../utils")
 var moment = require('moment');
 
 const checkStreamers = async () => {
+    logger.log("info", `Estoy corriendo la fn a las: ${moment()}`)
     try {
         // Array de los que ya se encontraron, para no repetir el tweet.
         let repetidos = []; 
