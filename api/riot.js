@@ -23,7 +23,6 @@ const checkIfIsPlaying = async (streamer) => {
 
         return response(true, isPlaying)
     } catch (error) {
-        logger.log("error", `Error en la función checkIfIsPlaying(): ${error.message}. El usuario es ${streamer.name}`)
         return response(false, error.message)
     }
 }

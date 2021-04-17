@@ -42,8 +42,12 @@ const createTextForTweet = (team1, team2) => {
     // Casos de partida.
     // Solo equipo 1 o equipo 2 tiene players del torneo.
     if ((team1.length > 0 && team2.length == 0) || (team2.length > 0 && team1.length == 0)) {
+        logger.log("info", `Función sendTuit - Solo un equipo tiene participantes.`)
+
         text += "Se han encontrado en el mismo equipo: \n"
         let teamAux = (team1.length > 0) ? team1 : team2
+
+        logger.log("info", `Función sendTuit - ${JSON.stringify(teamAux)}`)
 
         teamAux.forEach(player => {
             text += `- ${player.twitter} \n`
@@ -55,6 +59,8 @@ const createTextForTweet = (team1, team2) => {
     }
     // Ambos tienen players del torneo.
     else if ((team1.length > 0 && team2.length > 0)) {
+        logger.log("info", `Función sendTuit - Los dos equipos tienen participantes.`)
+
         text += "Se han encontrado como rivales: \n"
 
         team1.forEach(player => {
@@ -67,6 +73,9 @@ const createTextForTweet = (team1, team2) => {
 
         text += `\n Puedes mirar la partida en: \n`
         let teamAux = team1.concat(team2)
+
+        logger.log("info", `Función sendTuit - ${JSON.stringify(teamAux)}`)
+        
         teamAux.forEach(player => {
             text += `- ${player.twitch} \n`
         })
