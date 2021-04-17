@@ -9,6 +9,7 @@ const { logger } = require("../utils")
 var moment = require('moment');
 
 const checkStreamers = async () => {
+    logger.info("info", "-------------------------------------------------------------------------------------")
     logger.log("info", `Estoy corriendo la fn a las: ${moment()}`)
     try {
         // Array de los que ya se encontraron, para no repetir el tweet.
@@ -16,6 +17,7 @@ const checkStreamers = async () => {
 
         // Loop sobre todos los streamers que hay
         for await (let str of streamers) {
+            logger.log("info", `Estoy verificando a ${str.name}`)
             // Si está en el array de repetidos, significa que ya tuiteamos sobre ese match.
             if (repetidos.includes(str.name)) return
 
