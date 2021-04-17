@@ -6,6 +6,7 @@ const {
 const { streamers } = require("../streamers")
 const { sendTuit } = require("../api/twitter")
 const { logger } = require("../utils")
+var moment = require('moment');
 
 const checkStreamers = async () => {
     try {
@@ -24,7 +25,10 @@ const checkStreamers = async () => {
             
             // Si está jugando, verificamos si está jugando con algún otro streamer.
             if (isPlaying.success) {
-                isPlayingWithOther = verifyIfPlayingWithOther(isPlaying.data)
+                let diff = moment().diff(moment(isPlaying.data.gameStartTime), "seconds")
+                if (diff <= 380) {
+                    isPlayingWithOther = verifyIfPlayingWithOther(isPlaying.data)
+                }
             }
             
             // Si el array es mayor a 1, quiere decir que está jugando con alguien más. Dentro de la función enviamos el tweet y también guardamos dentro del array de repetidos los usernames para que no vuelva a enviar el tuit.
