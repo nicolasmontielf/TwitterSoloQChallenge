@@ -5,6 +5,7 @@ const {
 
 const { streamers } = require("../streamers")
 const { sendTuit } = require("../api/twitter")
+const { logger } = require("../utils")
 
 const checkStreamers = async () => {
     try {
@@ -32,8 +33,11 @@ const checkStreamers = async () => {
                 repetidos.push(...aux)
             }
         }
+
         return { success: true, message: "Actualizado correctamente." }
+
     } catch (error) {
+        logger.log("error", `Error en la función checkStreamers: ${error.message}`)
         return { success: false, message: error.message }
     }
 }
@@ -55,7 +59,12 @@ const sendTweetAndReturnRepetidos = (usersPlaying, dataMatch) => {
         return false;
     })
 
-    sendTuit(nuevoObjetoToTweet)
+    try {
+        sendTuit(nuevoObjetoToTweet)
+    } catch (error) {
+        logger.log("error", `Error en la función sendTweetAndReturnRepetidos() tratando de enviar un tuit: ${error.message}`)
+    }
+   
     
     return onlyUsernames;
 }

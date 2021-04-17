@@ -2,6 +2,7 @@ const axios = require('axios').default;
 const { response } = require('../utils')
 const { streamersUsername: allStreamersUsername } = require("../streamers")
 const { streamers: allStreamers } = require("../streamers")
+const { logger } = require("../utils")
 
 // Creamos la instancia de axios
 const client = axios.create({
@@ -22,7 +23,7 @@ const checkIfIsPlaying = async (streamer) => {
 
         return response(true, isPlaying)
     } catch (error) {
-        console.log("Error en checkIfIsPlaying", message.error)
+        logger.log("error", `Error en la función checkIfIsPlaying(): ${error.message}`)
         return response(false, error.message)
     }
 }

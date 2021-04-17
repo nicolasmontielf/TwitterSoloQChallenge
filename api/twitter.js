@@ -1,5 +1,5 @@
 const Twitter = require('twitter');
-const { streamers } = require("../streamers")
+const { logger } = require("../utils")
 
 const twitterClient = new Twitter({
     consumer_key: process.env.TWITTER_API_KEY,
@@ -18,7 +18,7 @@ const sendTuit = (data) => {
         if (player.teamId == 100) team1.push(player)
         if (player.teamId == 200) team2.push(player)
     })
-    
+
     const texto = createTextForTweet(team1, team2)
 
     try {
@@ -26,14 +26,13 @@ const sendTuit = (data) => {
             .post(
                 'statuses/update',
                 { status: texto, card_uri: 'tombstone://card' },
-                function(error, tweet) {
+                function(error) {
                     if(error) throw error;
-                    console.log(tweet)
-                    console.log("Tweet enviado.")
+                    logger.log("info", `Función sendTuit - Tuit enviado correctamente.`)
                 });
         return true;
     } catch (error) {
-        console.error(error.message)
+        logger.log("error", `Error en función sendTuit: ${error.message}`)
     }
 }
 
@@ -72,7 +71,7 @@ const createTextForTweet = (team1, team2) => {
             text += `- ${player.twitch} \n`
         })
     }
-    console.log(text)
+    
     return text
 }
 

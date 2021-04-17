@@ -1,3 +1,5 @@
+const winston = require('winston');
+
 const response = (success, data) => {
     return {
         success: success,
@@ -5,6 +7,16 @@ const response = (success, data) => {
     }
 }
 
+const logger = winston.createLogger({
+    transports: [
+        new winston.transports.File({
+          filename: 'logs.log'
+        }),
+    ]
+})
+
+
 module.exports = {
-    response
+    response,
+    logger
 }
