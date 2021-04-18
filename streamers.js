@@ -1,18 +1,18 @@
 const streamers = [
-{
-    id: '99T9-Bpd6tRsfT4CMOOCBjtzNkT08cQ51m1VbV2AXisMcRrAR30dg5qpjA',
-    accountId: 'IpR93ZaNrjp8XRRCPYt5iIMxDGGFHO8go8i0lgW3QAfC1jcUTEQ1aLwk',
-    puuid: 'NyViqZ4wIt8qhhD3kyjy0srkrouO30iBFmTz3k1mhCw1RgkV4CTkMkuAXDwiv_ro1Nb-v3NfDMbsFg',
-    name: 'soy murciANO',
-    twitter: "https://twitter.com/Koldo_LoL",
-    twitch: "https://www.twitch.tv/koldo_lol"
-},
+// {
+//     id: '99T9-Bpd6tRsfT4CMOOCBjtzNkT08cQ51m1VbV2AXisMcRrAR30dg5qpjA',
+//     accountId: 'IpR93ZaNrjp8XRRCPYt5iIMxDGGFHO8go8i0lgW3QAfC1jcUTEQ1aLwk',
+//     puuid: 'NyViqZ4wIt8qhhD3kyjy0srkrouO30iBFmTz3k1mhCw1RgkV4CTkMkuAXDwiv_ro1Nb-v3NfDMbsFg',
+//     name: 'soy murciANO',
+//     twitter: "@Koldo_LoL",
+//     twitch: "https://www.twitch.tv/koldo_lol"
+// },
 {
     id: '2sm5EhbXWFVsm_6Qq41sjHdNoPMUZpMJFhKwpD9OZ_tl6Enu70IppD7BLA',
     accountId: 'Ow3t7Ah5aCyT2t-h21JQ39fvUurxgja3Gpl5IS0wZLq-crckkFdRP8PR',
     puuid: 'mWJE7rpiOPfz_dwHHSoJ2JlFgI0wPpNl_sz0b7jHFK0dEGvBs50mXZCzyjrc0omUDJS1Pyt-BmELlQ',
     name: 'el tetoncito ',
-    twitter: "https://twitter.com/Flakked_LoL",
+    twitter: "@Flakked_LoL",
     twitch: "https://www.twitch.tv/getflakked"
 },
 {
@@ -20,7 +20,7 @@ const streamers = [
     accountId: '5UR4Eg2kDfXswOkSwK9RC0FSklMv18pRtceq0VZteA9l5Viw8g0ht73X',
     puuid: 'wZPnyIj84VOi5F7GKI3VjdvSC1RU2zzPnQVPzzwqBIE7SBJU47VVS4SIxtQRDEh3Y5OPM-_WL0BHXQ',
     name: 'El Cabrornn',
-    twitter: "https://twitter.com/GGinyin",
+    twitter: "@GGinyin",
     twitch: "https://www.twitch.tv/ginyin"
 },
 {
@@ -28,7 +28,7 @@ const streamers = [
     accountId: 'r5akpzrp2PD0vM3nRrkKHR75hR09Opl5oMYuBcEzJrvjfPTVjSEU7z2h',
     puuid: 'wQ5HfD51oCvMdfY51RpiQWsrs7fpGHtSqOPmMbku7Tv1_vg-ZhK8PiWCcf8SDLanmOT2-DE9_xIlGQ',
     name: 'Look My Bubble',
-    twitter: "https://twitter.com/JavierrLoL",
+    twitter: "@JavierrLoL",
     twitch: "https://www.twitch.tv/JavierrLoL"
 },
 {
@@ -36,7 +36,7 @@ const streamers = [
     accountId: 'WiX3L5a_vO-JW1QLRNVa8f1iZVJb4MWdjcIUetFjajVOQcSbLUn2Cys5',
     puuid: 'JhYeIf8Vhy04s8mEzqAOWeF29R3TxrX6hv277bcqazR1gEWo5hpMnIX5waTI0Sl4uwdBUQk68o9tvA',
     name: 'CEO of Grupales',
-    twitter: "https://twitter.com/CarritosKami",
+    twitter: "@CarritosKami",
     twitch: "https://www.twitch.tv/carritoskami"
 },
 {
@@ -44,7 +44,7 @@ const streamers = [
     accountId: 'f8aAWx2M6Wm_iVPNwKirc4DMXzwyfz7XXI3DooxTeGr8IC2hoGU383CM',
     puuid: 'npvdLud3J3YNZbHayGak1tRRmun2bBnqTReQ2Fd_pEyLaw1M-2LPsaEtTXLPjDVWnNMKd7ZfhShFaw',
     name: 'CEO de los Hunos',
-    twitter: "https://twitter.com/Attila",
+    twitter: "@Attila",
     twitch: "https://www.twitch.tv/Attila"
 },
 {
@@ -52,7 +52,7 @@ const streamers = [
     accountId: '5WXCTb4serGkI7g4Jf3hNMGFdGQ5_rfpg5WDCnDTBgQwNv_l5F6g7L9q',
     puuid: 'lSrz9gPSxdQjDNpgbpdEnzTMKV2A8_xT5QZtx3wF0w8ydIogd-Q9aJwuh8YjG6dJ84iM2H3a5QhlmA',
     name: 'oye papi',
-    twitter: "https://twitter.com/yonnareiss",
+    twitter: "@yonnareiss",
     twitch: "https://www.twitch.tv/yonnareiss"
 },
 {
@@ -60,7 +60,7 @@ const streamers = [
     accountId: 'qiPipLPX16BdW-a4mRu-iiF73yFmdvZvuLkpKOGioepHfXCkmLuv4oeW',
     puuid: 'RRBWPn00PLphhcJbrW4pypnhzjR25izQsY1bc78hOOxNOoRKSA1iapQYdcQmyznZJjxwY9Vgxt48ZQ',
     name: '1Stream y al TFT',
-    twitter: "https://twitter.com/Reventxz",
+    twitter: "@Reventxz",
     twitch: "https://www.twitch.tv/ReventXz"
 },
 {
@@ -68,7 +68,7 @@ const streamers = [
     accountId: '6-3pYyYTA6NX5Win6k8sHm9gqzU-EFzs3GkQ20KJ5fL0gqcDgTQrUvse',
     puuid: 'f965tTL9juUuJpjCWESF5sh0qDMxKv0xabImyha2c4xSWm9baaLwyHI_-OYR2T8mHNY9lHDdaXq21A',
     name: 'Nyaesenar',
-    twitter: "https://twitter.com/Aesenar",
+    twitter: "@Aesenar",
     twitch: "https://www.twitch.tv/Aesenar"
 },
 {
@@ -76,7 +76,7 @@ const streamers = [
     accountId: 'N5uyaPbo4OWO7zKBw-WLMvmjlmUZCN0hcBIDhiZkZCbRyisfarbR2o8O',
     puuid: '8T4wBzx5snZ_A4yd9lqBe9-MV-T_1f1t3yWvMOB-Y2mUXn0QdHUZFQdoc1oaHKPSpx9I5wI388N09w',
     name: 'IG de la Marita',
-    twitter: "https://twitter.com/missPolaroid",
+    twitter: "@missPolaroid",
     twitch: "https://www.twitch.tv/missPolaroid"
 },
 {
@@ -84,7 +84,7 @@ const streamers = [
     accountId: 'pXIpCAM1AGQMzqFB5EV9C9dtiCCXAWNRvANUr3MUiWzobLk9yKPfqN8x',
     puuid: 'CoAbv-DWy0EM-mw-Ak1yAYQqK8FKnW_MoQtUaCMfAzxraaL1Z7Lw_kStn6MG4kfhTVDD9rOZV0QV0A',
     name: 'Perro de Elyoya',
-    twitter: "https://twitter.com/Supa_LoL",
+    twitter: "@Supa_LoL",
     twitch: "https://www.twitch.tv/supa_lol"
 },
 {
@@ -92,7 +92,7 @@ const streamers = [
     accountId: 'iGGuHhpz04VF23HS6JkI4F1kmQXWudjeSslUa8L_Hw2ZRQmOIi_Nl6ww',
     puuid: 'Qc-lDGZBjZEObGI7t9dNQYgCsVo-vwcbuVyj7FAaie6EJaHmyYZCVbcXTSUI3-udV0wbo7aTnyufIg',
     name: 'CarmenSandwich',
-    twitter: "https://twitter.com/carmensandwich",
+    twitter: "@carmensandwich",
     twitch: "https://www.twitch.tv/carmensandwich"
 },
 {
@@ -100,7 +100,7 @@ const streamers = [
     accountId: 'Yx-kfVI7EFYI8orVpk_h1It_6nglfTnUJi1YYT4hVQTnzGTWBXlKRKt_',
     puuid: 'tuQPSQUx1PXOQr_tyfcv3xpE33_YrlN6akEgxh0XozzTR4YZ61RD-ea3HmMFlUeK8bylJNNPMFvKtA',
     name: '2K4IN',
-    twitter: "https://twitter.com/SkainLoL",
+    twitter: "@SkainLoL",
     twitch: "https://www.twitch.tv/SkainLoL"
 },
 {
@@ -108,7 +108,7 @@ const streamers = [
     accountId: '6DAW91K6fHldQEbxVAO51BccD-RNy4OoJkVnYD5Qy1Y1QnODo45Nbn7I',
     puuid: 'YsWAM1QBpu1iG0FBEnIIoOx7sd-5NRFLagdBqVIqbXxjQpNLrtA2OuN7nMdZqZorOzuJPn8bPId5rw',
     name: 'rank 22',
-    twitter: "https://twitter.com/ffaka_",
+    twitter: "@ffaka_",
     twitch: "https://www.twitch.tv/ffaka"
 },
 {
@@ -116,7 +116,7 @@ const streamers = [
     accountId: 'tL1CRdCn3cdHpV8aPqzKbCXDiI1ocpAfEkY5MVolaLo0ykJvu9-WveZ8',
     puuid: 'Xj3nukVcf4vwFkhAaBTdxp-bkUuxg45TCbxO3gaRvE2_gahA8WOU7GCIK24kuFCAwmD3gm4uLv6r_w',
     name: 'BudinKos',
-    twitter: "https://twitter.com/InKoslol",
+    twitter: "@InKoslol",
     twitch: "https://www.twitch.tv/InKoslol"
 },
 {
@@ -124,7 +124,7 @@ const streamers = [
     accountId: '4ppw_gB5HeR5vI1z69LvJv3poNVoBMRWsHTov88ncDVx0noIRTQosWSd',
     puuid: 'S3t0o4XauAzn2FG9OqgtUH_srxMRxfuu3zVew-6TBzH3oVqCKYgLDl9oIwOp1CE97N9Gr--rp2cJ3A',
     name: 'Filho Da Jungla',
-    twitter: "https://twitter.com/RafaL0L",
+    twitter: "@RafaL0L",
     twitch: "https://www.twitch.tv/rafal0l"
 },
 {
@@ -132,7 +132,7 @@ const streamers = [
     accountId: 'VWPHezVKcGvNGtClL2-Cm32O1MiBWOmPeiP3BkiYD55mq-0Fb28EmByk',
     puuid: 'ZoGQYH31wATfqX3bHuWuesdv98Dqq67hoVOXSpl3VKJpceB41Tl7ANrcj5s0SwOUStHtlYXBM2XAUQ',
     name: 'DJ CUC4R4CH4',
-    twitter: "https://twitter.com/MinidukeLoL",
+    twitter: "@MinidukeLoL",
     twitch: "https://www.twitch.tv/Miniduke"
 },
 {
@@ -140,7 +140,7 @@ const streamers = [
     accountId: 'BYcUAZmUtXosB9Hr8EEryW8U0Hsj75WJ-GxdHVtCJpAq_BfwYZYYftUi',
     puuid: 'FaVw6LkRoZfnw4Bby_SETI82KwJeJEQdJDXIiKjteB23oxlbeOHkL9tLK7ioNNeIza2iWe7gcOZdqQ',
     name: 'El Yayo Retirado',
-    twitter: "https://twitter.com/IamDiamondLoL",
+    twitter: "@IamDiamondLoL",
     twitch: "https://www.twitch.tv/iamdiamond"
 },
 {
@@ -148,7 +148,7 @@ const streamers = [
     accountId: 'NB9CBLo8LdCJy5eX7H8p8rZMw-Kfwq_kheIfkmT6VtjCB11ajhICHwc1',
     puuid: '7u3Hvu6CDH6w9rZ9GxIX2srnE4gjeAUc0o-yPrUCSpwHu5XUxHTmqNZHGmMHO1AHtIvizKpunBdZZw',
     name: 'PELUK1NG',
-    twitter: "https://twitter.com/Th3AntonioGG",
+    twitter: "@Th3AntonioGG",
     twitch: "https://www.twitch.tv/Th3Antonio"
 },
 {
@@ -156,7 +156,7 @@ const streamers = [
     accountId: 'C5k9LGuscvvIv167pn-p3x3LlN4H6ehG1v-wvB2ZdOK7b9P7apJXRHk-',
     puuid: 'EKp26JV6v1aSb6KZ25uRlshsEsrGSnpbdz8kVnmR8V1ZR4sqCqFto4MVNyWSPFzIe1s1rWPokS4vZA',
     name: 'ElHoyoNinja',
-    twitter: "https://twitter.com/ElOjoNinja",
+    twitter: "@ElOjoNinja",
     twitch: "https://www.twitch.tv/ElOjoNinja"
 },
 {
@@ -164,7 +164,7 @@ const streamers = [
     accountId: 'a9hjMYZ9H2WKHVYjwIGcdPWBToS7hzFoUa08muwzD2CGBfEbJts0wRVN',
     puuid: '4eESGR2_gEOTfukaDxbsU5TqPGIxW0KLGIsicFC_LHuTpYIytaIV8pJG-4ceZmfKz2jo6_y9RqC42A',
     name: 'Islas Malvinas',
-    twitter: "https://twitter.com/NeckoLol",
+    twitter: "@NeckoLol",
     twitch: "https://www.twitch.tv/NeckoLol"
 },
 {
@@ -172,7 +172,7 @@ const streamers = [
     accountId: 'vci8nCjmtVtEONTFGj5sSzgezBP1ToBtNMKwcBypwnTS8hxXRGXAJx1e',
     puuid: 'bY_zvb3eQ-cgvWlEvTDUVx0zcvO0a20M8MTs-kNxJE9zsaVy2nWBB0_ioCB5otEACG_sDC133EWl6Q',
     name: 'Diamond Caster',
-    twitter: "https://twitter.com/Champi_14",
+    twitter: "@Champi_14",
     twitch: "https://www.twitch.tv/champi14"
 },
 {
@@ -180,7 +180,7 @@ const streamers = [
     accountId: 'HpxzWuyF9K5rBeO3K4rHBNNlZpi2u6290XLfN1UdSVH_zQV2OMYlbYjz',
     puuid: 'X05ukU_quADsZShHNLRRvlTrvd7dHxybuRUlpqRg7aFpobMP2thkbbOaIxvacDhRBCbVGYl3iK7XQg',
     name: 'Pause and Play',
-    twitter: "https://twitter.com/PauSenpai",
+    twitter: "@PauSenpai",
     twitch: "https://www.twitch.tv/pausenpaii"
 },
 {
@@ -188,7 +188,7 @@ const streamers = [
     accountId: 'SqG57hvnqh7q_b5-UHFiwe7Bi7xUP61xYNYxZm8K9GD6mpy6JiSI63Kf',
     puuid: 'aKag5T9mf8BIYhAzDOps_zK168ofa3-RDlh4lwTItJ-OmamVOxbWoGBCAf3DEYmN58IwI7sDJnSy-g',
     name: 'Isolation Sallan',
-    twitter: "https://twitter.com/Sallanman_cat",
+    twitter: "@Sallanman_cat",
     twitch: "https://www.twitch.tv/Sallanman_cat"
 },
 {
@@ -196,7 +196,7 @@ const streamers = [
     accountId: 'Yvrn5DNsui9hwSezAyDRoviGD_0rtvi8upYzkTEbVcqIoTj3Dd7M-YIX',
     puuid: 'qJQvMmwugBTrKqdz8y3aU6xES5sqoZ5hSqeJABoEVP6pcBy5D2sfb3Q-TOIYucM8jS_Kh5ri3cLaRg',
     name: 'Jayce la compra',
-    twitter: "https://twitter.com/holdemhammers",
+    twitter: "@holdemhammers",
     twitch: "https://www.twitch.tv/holdemhammers"
 },
 {
@@ -204,7 +204,7 @@ const streamers = [
     accountId: 'kZvIg0K8LnZ9HRUIYxt9r4V4zj4O1RTH8E3gErSgcZwroBi_fWzvHdxh',
     puuid: 'Qj9pgBLhDUpIh0dfoUcMh0wVygohfh9YrG8QddETT4mpnQ5cZ2ouzYZcR0kGxVaQgspZehfbRjOQQw',
     name: 'Hot Tub Player',
-    twitter: "https://twitter.com/KatthTV",
+    twitter: "@KatthTV",
     twitch: "https://www.twitch.tv/Katth"
 },
 {
@@ -212,7 +212,7 @@ const streamers = [
     accountId: 'HXsdnB2tmpKqtfHPk3iGtOnjtFfEQUHJbMsM0ygDv77mCTQDi8Lul4ej',
     puuid: 'Niow51XY-R6IvO2xlzewjscC_f3NOwvYbA2FYt1XyTFH4MCAILw1atF9kPnY4WLac2rVUl4GEHXU4A',
     name: 'Laqtecuento',
-    twitter: "https://twitter.com/ZeIing",
+    twitter: "@ZeIing",
     twitch: "https://www.twitch.tv/zeling"
 },
 {
@@ -220,7 +220,7 @@ const streamers = [
     accountId: '8QD39cNdHM2iCxRmH1-DET6HnSPgxrLiP1D2ea_W_2KnLweeSXGSPUOn',
     puuid: 'F3onG3b-Pcu1sf-5obFuMWxKljvnBqWh_QlWXsj9cfSpapteNJfXFDxt6ggk7gIr5AmrFjju_zLDDQ',
     name: 'Madres Enjoyer',
-    twitter: "https://twitter.com/Send0o",
+    twitter: "@Send0o",
     twitch: "https://www.twitch.tv/send0o"
 },
 {
@@ -228,7 +228,7 @@ const streamers = [
     accountId: 'p23C6SFz6_yFFkNOokXedK9FYJHXoiyyCXNNhwVymPSzPry2L4TMpsMp',
     puuid: 'iy6tUL1ntMk60DijoQm0zl7OShW5Iu0GpKsXfs8rjaz6n2XtJb-D-9pBfzrdvg-yl4frMyKs3AnD7w',
     name: 'El Olivillas',
-    twitter: "https://twitter.com/JaVaaaLoL",
+    twitter: "@JaVaaaLoL",
     twitch: "https://www.twitch.tv/javaaa1"
 },
 {
@@ -236,7 +236,7 @@ const streamers = [
     accountId: 'xgfJm9KdIftBQgUlEsejRgzeUYFttQRYVYGho4d8tpy9zuUyLNZnU3a9',
     puuid: 'FDpje_FE1wGfxRmXeOBEjI8dzkZ6lK9vxFYGdcB2skADAxLxMd73iUkQ1BjOwpqr3fmZEoYqSHN6tQ',
     name: 'Kulerios',
-    twitter: "https://twitter.com/KeriosYT",
+    twitter: "@KeriosYT",
     twitch: "https://www.twitch.tv/kerios"
 },
 {
@@ -244,7 +244,7 @@ const streamers = [
     accountId: 'SLa1QE4ZqeSkEwUe_2rYWfHm058Gn3eCzzmu8A7rQ6ALn-5s5FZZ9l6C',
     puuid: 'VZGKlUot0ZFE5O1sx80Fksn2z9EnL8te0VA43QND-oNoQXfY28QVdYlo_KeL0SL9ph5JOaALRAQJJQ',
     name: 'Xixarras',
-    twitter: "https://twitter.com/Xixauxas1",
+    twitter: "@Xixauxas1",
     twitch: "https://www.twitch.tv/xixauxas"
 },
 {
@@ -252,7 +252,7 @@ const streamers = [
     accountId: 'G1o0-4zVefbMWd2hQ8Zh4CPP8GHn1JtYCnY5R2FMtuITIda4l4ocZDDQ',
     puuid: 'RhmI4E9p01K5ukvsqE-WKURA_VZtvxcZCNzaXhJvPWy80Hfl-Nr4ctiLW8bvIMK8cYDVm6HU20WYjg',
     name: 'George Casanovas',
-    twitter: "https://twitter.com/Werlyb",
+    twitter: "@Werlyb",
     twitch: "https://www.twitch.tv/Werlyb"
 },
 {
@@ -260,7 +260,7 @@ const streamers = [
     accountId: 'ubMQpohEpH4OAnZ9s0sfefyG9X65sqAIuxYZopkKFk5z02zBfltP3T0k',
     puuid: 'NBsmAdcfXlEH2X739UMzZ906Q0a84Pzzg5h7B34seLhdtl_ZSmAx4OGuiaJtgAsocs9YwZGoyzyJhA',
     name: 'Calvenger',
-    twitter: "https://twitter.com/Adri_Dalvenger",
+    twitter: "@Adri_Dalvenger",
     twitch: "https://www.twitch.tv/adcshiiro"
 },
 {
@@ -268,7 +268,7 @@ const streamers = [
     accountId: '2en26hI23bSbqEE2LkGia-offoaK17_rPrMY1z6yr4RDrWdw5HxcCKYZ',
     puuid: 'Ku0rgE2-uw17_Gq38-qqYp2Y-vIslpcQZgNTGI8NFuuBFf8kZOsoH2iFRhXkvxkknsi2oeTh9D3wzw',
     name: 'Loser Queuebab',
-    twitter: "https://twitter.com/frizko94",
+    twitter: "@frizko94",
     twitch: "https://www.twitch.tv/frizko94"
 },
 {
@@ -276,7 +276,7 @@ const streamers = [
     accountId: "bIYL9TYAW4rBFQKfD9xaAHd9vsDESm9otXNa9yKrnfpd1vath-4bzgD-",
     puuid: "S8fIs54tkNkQg9fmqFQYYIN4OQzqx-r9OsiDUNxVeh2EKwfAsqkXUTGzLP73L7Cwh_BspbXnz0AmYw",
     name: "Prekøz",
-    twitter: "https://twitter.com/MiyuLoL",
+    twitter: "@MiyuLoL",
     twitch: "https://www.twitch.tv/miyugodvelk"
 },
 {
@@ -284,7 +284,7 @@ const streamers = [
     accountId: "PZxDlTPk5pqwcC4L034I3bZ_fSFea8x49jCOQCABKohv8EeHMTyO8mM6",
     puuid: "ibByDNVbozOWMGoFia5Tx6o0SOhc07A8VhiBOHZcCn1KXh60gEXDoU6V_DGDlw4xzOjieYo9PjBWzw",
     name: "Elyøya Fangirl",
-    twitter: "https://twitter.com/ElmiilloR",
+    twitter: "@ElmiilloR",
     twitch: "https://www.twitch.tv/ElmiilloR"
 },
 {
@@ -292,7 +292,7 @@ const streamers = [
     accountId: "goVDfnErBuMS_Jbx1emmJrFZ-uW2XtDjgxQoo39sNG_ZRAMTRbUwX3Zg",
     puuid: "oXTk6DjQghp4bxEr6bJ0BQjYP0XEmgYjjeC89W62qmVylUIgZKg_jAGZJrEdMgYI4-L-bvLkpMD7Lg",
     name: "Bøttøm Feeder",
-    twitter: "https://twitter.com/mcadryh",
+    twitter: "@mcadryh",
     twitch: "https://www.twitch.tv/mcadryh"
 },
 {
@@ -300,7 +300,7 @@ const streamers = [
     accountId: "TnFdXgZHsGgN6jclpVqWiW57HFBU4eJgzJ53XClK8chD0NixEqQ1vNEk",
     puuid: "ebQw1p8UDze1Yo2JYZHQlWMI6OD5DRc41BOg4oQKFVPlY6xADH3ZACVQwaNQwS28pa0ujcOKhRTKvA",
     name: "LcƒrMrnngstr",
-    twitter: "https://twitter.com/DahVysGG",
+    twitter: "@DahVysGG",
     twitch: "https://www.twitch.tv/dahvys"
 },
 {
@@ -308,7 +308,7 @@ const streamers = [
     accountId: "GYxyzG2yh6rUMOMfYRoatJENSWpyksCeD_iE32Jgh5OKG2K95FnE8bZs",
     puuid: "L3FPq8bRp1SqgpDsTIggBs-P4EVIzbOc__vkIxmHPIX8XDUL4bkZUZIF0ahmWHOzAErugKDe5kLsmQ",
     name: "RøaD2ban",
-    twitter: "https://twitter.com/AdcShiiro",
+    twitter: "@AdcShiiro",
     twitch: "https://www.twitch.tv/adcshiiro"
 },
 {
@@ -316,7 +316,7 @@ const streamers = [
     accountId: "86sXddbBF1xTGlCteqIxoLAdWVfFmfyR1x0p1QPiwil-kJBFKPtQnjlR",
     puuid: "nZyh5hcIu3fBj3VBos9uPYowcfk59SNpnAb9C5ATX9BAm08t5gB0gzpoZ_1edqoncFkIr_Xwr4i7bg",
     name: "Castañaman",
-    twitter: "https://twitter.com/SilerLol",
+    twitter: "@SilerLol",
     twitch: "https://www.twitch.tv/silerr8"
 },
 {
@@ -324,7 +324,7 @@ const streamers = [
     accountId: "pUGEG0cN2-8M6YB51wa7Z9SKy-eE-g0NQNjljvMPvheCLO-5qzJYbRZM",
     puuid: "AQ1O_iiD6jyWRaJFmOFFlcJuze-Ziw-8e0IFzP0gZ4R7xijACFcmY0iu4-GT8ask-wmktw1mkiiI7w",
     name: "Holandés Errante",
-    twitter: "https://twitter.com/KarakalJr",
+    twitter: "@KarakalJr",
     twitch: "https://www.twitch.tv/KarakalJr"
 }
 ]
