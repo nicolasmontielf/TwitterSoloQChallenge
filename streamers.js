@@ -261,7 +261,7 @@ const streamers = [
     puuid: 'NBsmAdcfXlEH2X739UMzZ906Q0a84Pzzg5h7B34seLhdtl_ZSmAx4OGuiaJtgAsocs9YwZGoyzyJhA',
     name: 'Calvenger',
     twitter: "@Adri_Dalvenger",
-    twitch: "https://www.twitch.tv/adcshiiro"
+    twitch: "https://www.twitch.tv/Dalvenger"
 },
 {
     id: 'cFZu3rmDpjs5MrzHM1w1f68ZB8Zmp3eZJIlNPiCWjpUd5DFPz3kNVIbxGw',
