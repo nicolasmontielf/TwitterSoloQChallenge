@@ -23,6 +23,12 @@ const checkIfIsPlaying = async (streamer) => {
 
         return response(true, isPlaying)
     } catch (error) {
+        if (error.response) {
+            if (error.response.data.status.status_code != 404) {
+                logger.log("info", `Función checkIfIsPlaying(): ${error.response.data.status.message}`)
+            }
+        }
+        
         return response(false, error.message)
     }
 }
