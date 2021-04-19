@@ -28,7 +28,7 @@ const checkStreamers = async () => {
             // Si está jugando, verificamos si está jugando con algún otro streamer.
             if (isPlaying.success) {
                 let diff = moment().diff(moment(isPlaying.data.gameStartTime), "seconds")
-                if (diff <= 380) {
+                if (diff <= 365) {
                     isPlayingWithOther = verifyIfPlayingWithOther(isPlaying.data)
                 }
             }
