@@ -2,7 +2,7 @@
 require('dotenv').config()
 const cron = require('node-cron');
 const checkStreamers = require("./app/check_streamers").default
-const { logger } = require("../utils")
+const { logger } = require("./utils")
 
 cron.schedule('*/4 * * * *', async function() {
     try {
