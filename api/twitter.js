@@ -54,7 +54,7 @@ const createTextForTweet = (team1, team2) => {
         })
         text += `\n Puedes mirar la partida en: \n`
         teamAux.forEach(player => {
-            text += `- ${player.twitch} \n`
+            text += `- https://www.twitch.tv/${player.twitch} \n`
         })
     }
     // Ambos tienen players del torneo.
