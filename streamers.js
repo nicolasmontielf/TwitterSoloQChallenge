@@ -18,9 +18,9 @@ const streamers = [
         elo: 'high'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: 'n5JU63hgyB4k3V12pYcr9eyw7Ll6x1gbCShnfEZtMnL7ouoGJ7BWlaxihw',
+        accountId: '2NjEJX5Mamya775JOvgDMG6pUMfibVpYvH0bkcNF2Sx4A5VmxgIhhpLB',
+        puuid: '_lA86MuWsZKXfsgQ9Vc4XqAO7hTjaOIW_BwauD-GS3N2V7uG5djiWwQy9SkD-vyYXAAodApTFCavSA',
         name: 'KOI ÄITANA',
         twitter: 'Koldo_LoL',
         twitch: 'koldo_lol',
@@ -144,9 +144,9 @@ const streamers = [
         elo: 'high'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: 'sLBos06aoo6jA77e2R0ZQ_i-dUgC0SdydgxJrSU1Ff4aeW_zYNL9rXW8Lg',
+        accountId: '9n_M0lGwXqmYfx7ppiqLKOUz2k59mguq3XSzDhK6cQ9Z89g3EyZjeF1q',
+        puuid: 'Z2lElC4ue_EmKGzT76Lj6Nuomo6yFMDPyrI8E4Tbyr6JIbk9oz9ly2FYwwaLpKSOIVVNsz44IYHIfg',
         name: 'Monje Shacolínn',
         twitter: 'PochiPoom',
         twitch: 'pochipoom',
@@ -198,27 +198,27 @@ const streamers = [
         elo: 'high'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: 'VCcJOuX4tz1h4Wvt-fwqulJ7aItEkkfD4XJrHRVTnKTrTL-tAVorl23Mnw',
+        accountId: 'b7LPfQIgM9HmNZ9jDSzRSrnBP_kuVL52ZLSe49Kv3u57vdOpdy-HXU4N',
+        puuid: 'Ul8bMxMVTAy112yjly4TeauPEcpJpe9GVcHbtBD3lQj0O9HCo--0puZ6Jgz261CAQIU1pHI-XHA-7w',
         name: 'FRA KCasadο',
         twitter: 'jaimemellado_',
         twitch: 'jaimemellado',
         elo: 'low'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: '8QsTmBZPwNLwdwMOv0pvPyVWvzgWqnGrhwOs-A4tI6RcKqBFh_pjoNYMsA',
+        accountId: 'VzXILSTlbc7BzP_N34zI6KqYCso8n7GI3UKjEI7TaOVFmlMnifpmDiXY',
+        puuid: 'wrKzqqti25fTrsvUaTJZjTo5LC20u5Fi4E9bSTKD0ERzdKCunytRZfcVFLOro04DKEda84WpVBCCOQ',
         name: 'abby me arruinó',
         twitter: 'ffaka_',
         twitch: 'ffaka',
         elo: 'high'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: '9FHkrtZPDwrzzDUr_yAIXcBHdmZ-5D4wRuCs0_rJs6nVNuQSnkrIQI4A6w',
+        accountId: '1N_rVNLNh_7QxcKarLxuhK-BPxf9PU0jx3nnCBsfaWp86XeE_hKjNmpA',
+        puuid: 'KOW4FEbtQuDogQ0FzfcXZBXFia_wwn6UGrmAlQ9-aEtzJlt6Zm3YiJrnwM262Shy6mlJXN1hjtIDAQ',
         name: 'TH3TOÑONEN',
         twitter: 'tmartosnen',
         twitch: 'tmartosnen',
@@ -405,9 +405,9 @@ const streamers = [
         elo: 'low'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: 'pvM7sdI1yf60mj4OGHyI_AtvFD6NEUGVTM5wuxgFPHURdOFYNm0AMt3IgQ',
+        accountId: 'zabFxItMDavVbnQH8TuRT1i_mGs_Slfi1OmuVmiHz_D4dZy7xO-KMo5i',
+        puuid: 'wr5fadMmPI8C7jSTwPJlA9FfIxKaOa7A6xrbgXD80SQUf2EAkhVCXUyETevVbZ4FDWK99Cg0yVCO6Q',
         name: 'PEŁUK1NG',
         twitter: 'Th3AntonioGG',
         twitch: 'th3antonio',
@@ -431,19 +431,19 @@ const streamers = [
         twitch: 'aesenar',
         elo: 'high'
     },
+    // {
+    //     id: '',
+    //     accountId: '',
+    //     puuid: '',
+    //     name: 'AnaMarreLoL',
+    //     twitter: 'AnaMarreroo',
+    //     twitch: 'anamarrerooph',
+    //     elo: 'low'
+    // },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
-        name: 'AnaMarreLoL',
-        twitter: 'AnaMarreroo',
-        twitch: 'anamarrerooph',
-        elo: 'low'
-    },
-    {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: 'kZOWRW9BdU2UQS2Xs6W63E7qDYEGX4Z-QmdtA5Bsznlv4Ai9RwSbn2vd_A',
+        accountId: 'oUs9DCmsBCbqskrpqY5A_llswkMOC4mcdIy8armtKPzBpMQc0vN8-2ln',
+        puuid: 'XVLaDxqWYe0y8mUZ297tvmiCCwiqHbiY6_r56P0cK1l3RBUt3nkj9qBCwv7B3zL61KGUciJ6_DGOtA',
         name: 'EL GRÁFICAS',
         twitter: 'Adri_Dalvenger',
         twitch: 'dalvenger',
@@ -522,18 +522,18 @@ const streamers = [
         elo: 'high'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: 'O2gdgyItJuwEq8TRcr1d1yv-Ai3dIknPYBQrGkqCYQlceEF9ktmzQytFHQ',
+        accountId: '_Nt6JlcjdiH5z4qGW8o--CJE8br0iCM6Y0sfH-840saadWPBra7YdLrv',
+        puuid: 'PJmTjFwGEGfUAR11rw4ZAdiz1Oxv1oVunVkfEZmkSqjhbzBz54alr-PtQ2vBVUFHQ1fZFa6J6MDBnQ',
         name: 'Chica qué dices',
         twitter: 'andres_alguacil',
         twitch: 'elbokeron',
         elo: 'low'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: 'ste-5D48qdizlUNZtWMe5Qnsqs24iHeAE_XnNKaDlISEfxDt3Mdh61GMhA',
+        accountId: 'BSjFLcB0Mbwb-azlJv9VszCWBMAyIdgT5Vnc33hKzCdRaZJOj0_6KMcx',
+        puuid: 'xxHqw4qt56J7-0BSEae67YImBSHcIvJ84cv6l7qseasKDWqvkReeVy_9V6Lj0R3Xe9o6imo9jXZqyA',
         name: 'polymσrph',
         twitter: 'Morphains',
         twitch: 'morphains',
@@ -558,9 +558,9 @@ const streamers = [
         elo: 'low'
     },
     {
-        id: '',
-        accountId: '',
-        puuid: '',
+        id: 'y3DIwYNvd55VnNIQqPanmd6Xw2wEpfen1GV1TjJq-uh8Vpzl_-a8KK253A',
+        accountId: '9s2GR-J-b8bp7_CA8PbZtRxZmxpNFyjVFtiahvYQ3VJ9b41OAbOpp4Mm',
+        puuid: 'M4xX4iVwi74274q9X7SaVegNCj3BBM7fB5__HPL9As1zdXWBnRgrD9n-pVlWRH6zW0F-S6g0PviXQw',
         name: 'ahrivedercı',
         twitter: 'mahridia',
         twitch: 'mahriaa',
