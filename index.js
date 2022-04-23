@@ -2,12 +2,13 @@
 require('dotenv').config()
 const cron = require('node-cron');
 const checkStreamers = require("./app/check_streamers").default
+const { logger } = require("../utils")
 
-cron.schedule('* * * * *', async function() {
+cron.schedule('*/4 * * * *', async function() {
     try {
         await checkStreamers()
-        console.log("Done.")
+        logger.info("Done.")
     } catch (error) {
-        console.error("Error", error.message)
+        logger.error("Error", error.message)
     }
 });
