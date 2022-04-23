@@ -50,7 +50,7 @@ const createTextForTweet = (team1, team2) => {
         logger.log("info", `Función sendTuit - ${JSON.stringify(teamAux)}`)
 
         teamAux.forEach(player => {
-            text += `- ${player.twitter} \n`
+            text += `- @${player.twitter} \n`
         })
         text += `\n Puedes mirar la partida en: \n`
         teamAux.forEach(player => {
@@ -64,11 +64,11 @@ const createTextForTweet = (team1, team2) => {
         text += "Se han encontrado como rivales: \n"
 
         team1.forEach(player => {
-            text += `- ${player.twitter} \n`
+            text += `- @${player.twitter} \n`
         })
         text += "\n VS \n \n"
         team2.forEach(player => {
-            text += `- ${player.twitter} \n`
+            text += `- @${player.twitter} \n`
         })
 
         text += `\n Puedes mirar la partida en: \n`
@@ -77,7 +77,7 @@ const createTextForTweet = (team1, team2) => {
         logger.log("info", `Función sendTuit - ${JSON.stringify(teamAux)}`)
         
         teamAux.forEach(player => {
-            text += `- ${player.twitch} \n`
+            text += `- https://www.twitch.tv/${player.twitch} \n`
         })
     }
     
