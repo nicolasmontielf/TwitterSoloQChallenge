@@ -25,7 +25,7 @@ const checkIfIsPlaying = async (streamer) => {
     } catch (error) {
         if (error.response) {
             if (error.response.data.status.status_code != 404) {
-                logger.log("info", `Función checkIfIsPlaying(): ${error.response.data.status.message}`)
+                logger.log("info", `Funcion checkIfIsPlaying() en el user ${streamer.twitch}: ${error.response.data.status.message}`)
             }
         }
         
