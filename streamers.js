@@ -356,7 +356,7 @@ const streamers = [
         puuid: 'OxxWa9PSL3BrnF_9YCFNGtkWKkB8fZv166NId7E4AompGrwyADyH50athhmNXyG5lCo3ATBK4cpsdg',
         name: 'CaiQi fangirl',
         twitter: 'Scarlettplss',
-        twitch: 'scarlettplss',
+        twitch: 'scarlettpls',
         elo: 'high'
     },
     {
@@ -660,7 +660,7 @@ const streamers = [
         id: 'b7yEK10w48DsykAD2E48z3XE3U-HGstghDIVvRGrEVqc5lpWptAtk9frkw',
         accountId: 'hed_DZ-IGuGdaxzhoTFdIOLXYSVuMHw5P5yPTClQDuiEOzOsDNmtVYsG',
         puuid: 'U_FpkVcWZ-meEYGgEDJIDKICJsJXOxhh_yzlZ9M2IOAohZIw7loStRYR8niKhPWjrlJw0yl_rRcvew',
-        name: 'elmillor is back',
+        name: 'ELMILLOR IS BACK',
         twitter: 'Elmiillor',
         twitch: 'elmiillor',
         elo: 'high'
