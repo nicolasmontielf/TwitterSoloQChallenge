@@ -19,7 +19,10 @@ const sendTuit = (data) => {
         if (player.teamId == 200) team2.push(player)
     })
 
-    const texto = createTextForTweet(team1, team2)
+    let texto = createTextForTweet(team1, team2)
+    if (texto.length > 280) {
+        texto = createTextForTweet(team1, team2, true)
+    }
 
     try {
         twitterClient
@@ -36,7 +39,7 @@ const sendTuit = (data) => {
     }
 }
 
-const createTextForTweet = (team1, team2) => {
+const createTextForTweet = (team1, team2, shortVersion = false) => {
     let text = "¡TENEMOS PARTIDA del @soloqchallenge! \n\n"
 
     // Casos de partida.
@@ -48,14 +51,16 @@ const createTextForTweet = (team1, team2) => {
         let teamAux = (team1.length > 0) ? team1 : team2
 
         logger.log("info", `Función sendTuit - ${JSON.stringify(teamAux)}`)
-
-        teamAux.forEach(player => {
-            text += `- @${player.twitter} \n`
-        })
-        text += `\n Puedes mirar la partida en: \n`
-        teamAux.forEach(player => {
-            text += `- https://www.twitch.tv/${player.twitch} \n`
-        })
+        
+        if (!shortVersion) {
+            teamAux.forEach(player => {
+                text += `- @${player.twitter} \n`
+            })
+            text += `\n Puedes mirar la partida en: \n`
+            teamAux.forEach(player => {
+                text += `- https://www.twitch.tv/${player.twitch} \n`
+            })
+        }
     }
     // Ambos tienen players del torneo.
     else if ((team1.length > 0 && team2.length > 0)) {
@@ -71,14 +76,20 @@ const createTextForTweet = (team1, team2) => {
             text += `- @${player.twitter} \n`
         })
 
-        text += `\n Puedes mirar la partida en: \n`
         let teamAux = team1.concat(team2)
 
         logger.log("info", `Función sendTuit - ${JSON.stringify(teamAux)}`)
         
-        teamAux.forEach(player => {
-            text += `- https://www.twitch.tv/${player.twitch} \n`
-        })
+        if (!shortVersion) {
+            text += `\n Puedes mirar la partida en: \n`
+            teamAux.forEach(player => {
+                text += `- https://www.twitch.tv/${player.twitch} \n`
+            })
+        }
+    }
+
+    if (shortVersion) {
+        text += "No pongo los links de twitch xq el tweet se hace largo, sorry :("
     }
     
     return text
