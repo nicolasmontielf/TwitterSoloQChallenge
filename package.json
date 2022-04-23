@@ -1,11 +1,12 @@
 {
     "name": "soloqchallenge",
     "version": "0.0.1",
-    "description": "Tracking para el soloq challenge",
+    "description": "Tracking para el SoloQ Challenge",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon index.js"
+        "dev": "nodemon index.js",
+        "start": "node index.js"
     },
     "keywords": [
         "soloq",
@@ -17,8 +18,8 @@
         "axios": "^0.21.1",
         "dotenv": "^8.2.0",
         "editorconfig": "^0.15.3",
-        "express": "^4.17.1",
         "moment": "^2.29.1",
+        "node-cron": "^3.0.0",
         "twitter": "^1.7.1",
         "winston": "^3.3.3"
     },
