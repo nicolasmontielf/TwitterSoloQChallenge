@@ -1,6 +1,6 @@
 const axios = require('axios').default;
 const { response } = require('../utils')
-const { streamersUsername: allStreamersUsername, streamersIds } = require("../streamers")
+const { streamersIds } = require("../streamers")
 const { streamers: allStreamers } = require("../streamers")
 const { logger } = require("../utils")
 
