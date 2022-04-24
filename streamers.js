@@ -671,7 +671,12 @@ const streamersUsername = streamers.map(str => {
     return str.name
 })
 
+const streamersIds = streamers.map(str => {
+    return str.id
+})
+
 module.exports = {
     streamers,
-    streamersUsername
+    streamersUsername,
+    streamersIds
 }

@@ -1,6 +1,6 @@
 const axios = require('axios').default;
 const { response } = require('../utils')
-const { streamersUsername: allStreamersUsername } = require("../streamers")
+const { streamersUsername: allStreamersUsername, streamersIds } = require("../streamers")
 const { streamers: allStreamers } = require("../streamers")
 const { logger } = require("../utils")
 
@@ -38,8 +38,8 @@ const verifyIfPlayingWithOther = (matchData) => {
     let isPlayingWith = [];
 
     for (let participant of matchData.participants) {
-        if (allStreamersUsername.includes(participant.summonerName)) {
-            let dataForThatStreamer = getDataForStreamer(participant.summonerName)
+        if (streamersIds.includes(participant.summonerId)) {
+            let dataForThatStreamer = getDataForStreamer(participant.summonerId)
             isPlayingWith.push(dataForThatStreamer)
         }
     }
@@ -48,9 +48,9 @@ const verifyIfPlayingWithOther = (matchData) => {
 }
 
 // Sacamos la data completa de acuerdo al username.
-const getDataForStreamer = (username) => {
+const getDataForStreamer = (id) => {
     return allStreamers.find(element => {
-        if (element.name == username) {
+        if (element.id == id) {
             return element;
         }
     })
