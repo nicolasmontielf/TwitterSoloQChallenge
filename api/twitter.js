@@ -93,8 +93,8 @@ const createTextForTweet = (team1, team2, shortVersion = false) => {
     }
 
     if (shortVersion) {
+        text += "\n No pongo los links de twitch xq el tweet se hace largo, sorry :("
     }
-    text += "\n No pongo los links de twitch xq el tweet se hace largo, sorry :("
     
     return text
 }
