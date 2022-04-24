@@ -66,7 +66,7 @@ const streamers = [
         id: 'cIwLr8O3Ke6F8fhNYLXvvynf2twcpAgfAIBZkZeArfiGDIzvB2NUOCUsfA',
         accountId: '7PN7xeF4ao4HYOyE_BaYPKnpkxHHWTAEHAncsjKm0CB2l_ocmfBu2VOE',
         puuid: 'sDYTD-fnLNJv26OZNvpnJLaBvnrq65n_cmx6plAXISzAfIqz1ww_4WmJd5v_0qmWpLCGhoFEobSvIQ',
-        name: 'Goku que',
+        name: 'Goku que ',
         twitter: 'missPolaroid',
         twitch: 'misspolaroid',
         elo: 'high'
