@@ -30,8 +30,11 @@ const sendTuit = (data) => {
                 'statuses/update',
                 { status: texto, card_uri: 'tombstone://card' },
                 function(error) {
-                    if(error) throw error;
-                    logger.log("info", `Función sendTuit - Tuit enviado correctamente.`)
+                    if(error) {
+                        logger.log("error", `Función sendTuit - ${error.message}`)
+                    } else {
+                        logger.log("info", `Función sendTuit - Tuit enviado correctamente.`)
+                    }
                 });
         return true;
     } catch (error) {
