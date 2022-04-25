@@ -29,10 +29,9 @@ const sendTuit = (data) => {
             .post(
                 'statuses/update',
                 { status: texto, card_uri: 'tombstone://card' },
-                function(error) {
+                function(error, _tweet, response) {
                     if(error) {
-                        console.log("error", error)
-                        logger.log("error", `Función sendTuit - ${error.message}`)
+                        logger.log("error", `Función sendTuit - ${JSON.stringify(response)}`)
                     } else {
                         logger.log("info", `Función sendTuit - Tuit enviado correctamente.`)
                     }
