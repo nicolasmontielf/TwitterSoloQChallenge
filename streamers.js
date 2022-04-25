@@ -606,7 +606,7 @@ const streamers = [
         id: '2l3ZvYMDCyLcqJEtqygKw87kxTkEINqIhwuEcdy8e1NqoRFISaEDtPqLmg',
         accountId: '7E8gIT5VF8E6PUN3GIf2OXJHWTiY_Ho92nxBnbiLTdNlZLfWQT_bsJLU',
         puuid: 'W5_d6mZ8x1ORyXcxPM585lk0AmW20Li_rEaxAV8qNuX9GbSYzoRycFocy-4rTk0or4geGLfahVvfWA',
-        name: 'Adryos Lepido',
+        name: 'Adryos Lepido ',
         twitter: 'mcadryh',
         twitch: 'mcadryh',
         elo: 'high'
