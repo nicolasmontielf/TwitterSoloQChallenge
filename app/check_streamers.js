@@ -55,11 +55,12 @@ const sendTweetAndReturnRepetidos = (usersPlaying, dataMatch) => {
     
     const nuevoObjetoToTweet = dataMatch.participants.map( val => {
         if (onlyUsernames.includes(val.summonerName)) {
+            let user = streamers.find(el => el.id === val.summonerId);
             return {
                 teamId: val.teamId,
                 summonerName: val.summonerName,
-                twitter: streamers.reduce((acc, test) => { if (test.name == val.summonerName) return test.twitter; return acc }),
-                twitch: streamers.reduce((acc, test) => { if (test.name == val.summonerName) return test.twitch; return acc })
+                twitter: user.twitter,
+                twitch: user.twitch,
             }
         }
         return false;
@@ -71,7 +72,6 @@ const sendTweetAndReturnRepetidos = (usersPlaying, dataMatch) => {
         logger.log("error", `Error en la función sendTweetAndReturnRepetidos() tratando de enviar un tuit: ${error.message}`)
     }
    
-    
     return onlyUsernames;
 }
 

@@ -56,10 +56,11 @@ const createTextForTweet = (team1, team2, shortVersion = false) => {
 
         logger.log("info", `Función sendTuit - ${JSON.stringify(teamAux)}`)
         
+        teamAux.forEach(player => {
+            text += `- @${player.twitter} \n`
+        })
+        
         if (!shortVersion) {
-            teamAux.forEach(player => {
-                text += `- @${player.twitter} \n`
-            })
             text += `\n Puedes mirar la partida en: \n`
             teamAux.forEach(player => {
                 text += `- https://www.twitch.tv/${player.twitch} \n`
