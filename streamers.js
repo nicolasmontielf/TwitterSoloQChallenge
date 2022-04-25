@@ -102,7 +102,7 @@ const streamers = [
         id: '8_EAp6GK4WwwlAWY35DohMvzxxgLWAmMW_CORPtpDgvfFirN5cyPtJhwRw',
         accountId: 'r4-BM6TguTaw97W8IUGUI7X2UUhUTDuf0IUoP4V_nR8Pwz4vkn7ap502',
         puuid: 'S3JBxc7myaeDEJx1kPm_OoxjNeqmUPvmUsHDQMCoZAZEjtMK0qU4WvXFK1nDvYIMxuzFYxyguTEJIA',
-        name: 'Laccek',
+        name: 'LACCEK',
         twitter: 'SilerLol',
         twitch: 'silerr8',
         elo: 'high'
@@ -431,15 +431,15 @@ const streamers = [
         twitch: 'aesenar',
         elo: 'high'
     },
-    // {
-    //     id: '',
-    //     accountId: '',
-    //     puuid: '',
-    //     name: 'AnaMarreLoL',
-    //     twitter: 'AnaMarreroo',
-    //     twitch: 'anamarrerooph',
-    //     elo: 'low'
-    // },
+    {
+        id: 'rmzirSVsRc9HKIwMFS1wesHi55z_hIcsFaYDk4NTe3qQua9ViJGso9wqtg',
+        accountId: 'sU2D1CimMOg2MF8aHDCFqZJM9171hC5qsOJA9Xr7Dkds5RhAljjDC5hJ',
+        puuid: 'eOS9pW0elXkewADkCqmK4E2_2KvZAsV2cTswz5c-Lr96AchTHNT3lIC8bQvSAP-TXEK0GJKpwF-Og',
+        name: 'AnaMarreLoL',
+        twitter: 'AnaMarreroo',
+        twitch: 'anamarrerooph',
+        elo: 'low'
+    },
     {
         id: 'kZOWRW9BdU2UQS2Xs6W63E7qDYEGX4Z-QmdtA5Bsznlv4Ai9RwSbn2vd_A',
         accountId: 'oUs9DCmsBCbqskrpqY5A_llswkMOC4mcdIy8armtKPzBpMQc0vN8-2ln',
@@ -453,7 +453,7 @@ const streamers = [
         id: 'lvMvHuubckLgC_FtPWRKUdeaQYcQ8_immk8MtzCfrUxXhoR3j5oLP3eZ0w',
         accountId: 'dFmNwwSe0gOQmirNIy3A13CaT8JJ6WAlCWy8YE5c106FV_HfANQHasYC',
         puuid: 'vLYJG7fTdjEvrJJxWeUgkyTXE3gkIpSi2sbeNoNYE5KGbGrak2vwzTEjYx2B7RpK4LAZK4ZYClI6lA',
-        name: 'OTP GAZYRA',
+        name: 'OTP GAZYRA ',
         twitter: 'saramartinng',
         twitch: 'saramartinng',
         elo: 'low'
@@ -664,7 +664,16 @@ const streamers = [
         twitter: 'Elmiillor',
         twitch: 'elmiillor',
         elo: 'high'
-    }
+    },
+    {
+        id: 'FIfSxzgdWe3n_dlYt7jgIy-wGkmFoBKbJeLQ8cTwuiLWY30_cJO3BRBYyw',
+        accountId: 'gO78SJ_OxxQQ3lHz7Al6OiwFLB8_eLIsZgW9dhe_KNsA9vBdPLUdVm62',
+        puuid: 'f8-_GbHHRmWhsk2zrpjknhpzcFYL8Fp-75ea-mGMCVSYkNau30XpiSILg3fikXw8rna5oOxubiebXg',
+        name: 'abby una cosa',
+        twitter: 'littleragergirl',
+        twitch: 'littleragergirl',
+        elo: 'low'
+    },
 ]
 
 const streamersUsername = streamers.map(str => {
